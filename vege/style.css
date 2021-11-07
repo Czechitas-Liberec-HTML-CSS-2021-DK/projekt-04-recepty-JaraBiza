@@ -152,6 +152,12 @@ p {
         width: 100%;
         min-height: 250px;
     }
+    .maly_kontejner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
 
 }
 
@@ -167,12 +173,13 @@ p {
     }
 
     .container {
+        display: flex;
         flex-direction: row;
     }
 
     .recept {
         height: 50%;
-        width: 33%;
+        width: 50%;
         min-height:200px;
     }
 
@@ -181,6 +188,11 @@ p {
         flex-basis: 33%;
         min-height: 400px;
     }
-
+ .maly_kontejner {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 66%;
+ }
 }
 
